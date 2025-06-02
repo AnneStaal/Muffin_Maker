@@ -106,8 +106,6 @@ function kiesMuffinSlagroom(muffinVorm, beslag, muffinSlagroom) {
     slagroom = muffinSlagroom;
     slagroomGekozenAfbeelding.src = "images2/" + muffinSlagroom + "/" + muffinVorm + "_" + beslag + "_" + muffinSlagroom + ".png";
 }
-console.log("Laden van afbeelding:", slagroomGekozenAfbeelding.src);
-
 function kiesMuffinSprinkels(muffinVorm, beslag, slagroom, sprinkelsGekozen) {
     sprinkles = sprinkelsGekozen
     sprinkelsGekozenAfbeelding.src ="images2/" + slagroom + "/" + sprinkelsGekozen + "/" + muffinVorm + "_" + beslag + "_" + slagroom + "_" + sprinkelsGekozen+ ".png";
