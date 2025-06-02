@@ -104,11 +104,11 @@ function kiesMuffinBeslag(muffinVorm, muffinBeslag) {
 }
 function kiesMuffinSlagroom(muffinVorm, beslag, muffinSlagroom) {
     slagroom = muffinSlagroom;
-    slagroomGekozenAfbeelding.src = "images/" + muffinSlagroom + "/" + muffinVorm + "_" + beslag + "_" + muffinSlagroom + ".png";
+    slagroomGekozenAfbeelding.src = "images2/" + muffinSlagroom + "/" + muffinVorm + "_" + beslag + "_" + muffinSlagroom + ".png";
 }
 function kiesMuffinSprinkels(muffinVorm, beslag, slagroom, sprinkelsGekozen) {
     sprinkles = sprinkelsGekozen
-    sprinkelsGekozenAfbeelding.src ="images/" + slagroom + "/" + sprinkelsGekozen + "/" + muffinVorm + "_" + beslag + "_" + slagroom + "_" + sprinkelsGekozen+ ".png";
+    sprinkelsGekozenAfbeelding.src ="images2/" + slagroom + "/" + sprinkelsGekozen + "/" + muffinVorm + "_" + beslag + "_" + slagroom + "_" + sprinkelsGekozen+ ".png";
 }
 
 /* ----------------------------------- extra's ----------------------------------- */
