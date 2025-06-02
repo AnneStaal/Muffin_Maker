@@ -1,0 +1,251 @@
+
+header{
+    margin-top: -2em;
+    background-color: rgb(250, 235, 215);
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("/images/bakery_3.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    backdrop-filter: blur(1.2px);
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(139, 100, 67);
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+    color:rgb(95, 57, 32);
+    margin: -1.2em 0em 0em 15em;
+}
+
+button{
+    background-color: beige;
+}
+
+.aanrecht{
+    background-image: url("/images/counter.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 14em;
+}
+
+.muffinvorm_gekozen{
+    display: flex;
+    justify-content: center;
+}
+
+.muffinvorm_gekozen img{
+    width: 10em;
+    justify-content: center;
+}
+/* ----------------------------------- pagina kok keuze ----------------------------------- */
+
+#kokKies{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 11.2em;
+}
+
+.koks{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.koks img{
+    height: 28em;
+    padding: 0.5em;
+}
+
+.koks button{
+   margin-top: 0.5em;
+   font-size: 18px;
+   border-radius: 0.5em;
+   width: 10em;
+}
+
+/* ----------------------------------- pagina muffinvorm ----------------------------------- */
+#muffinKeuze{
+    display: none;
+}
+
+#muffinKies{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 11em;
+}
+
+.muffins{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.muffins img{
+    height: 15em;
+    padding: 0.5em;
+}
+
+.muffins button{
+   margin-top: 0.5em;
+   font-size: 18px;
+   border-radius: 0.5em;
+   width: 10em;
+}
+
+/* ----------------------------------- pagina cakebeslag ----------------------------------- */
+#beslagKeuze{
+    display: none;
+}
+#beslagKies{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    /*padding-bottom: 11em;*/
+}
+
+.beslag{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.beslag img{
+    height: 15em;
+    padding: 0.5em;
+}
+
+.beslag button{
+   margin-top: 0.5em;
+   font-size: 18px;
+   border-radius: 0.5em;
+   width: 10em;
+}
+
+
+/* ----------------------------------- pagina oven ----------------------------------- */
+#oven{
+    display: none;
+}
+#ovenPic{
+    display: flex;
+    justify-content: center;
+}
+#ovenPic img{
+    display: flex;
+    width: 40em;
+    padding-top: 7em;
+}
+
+/* ----------------------------------- pagina slagroom ----------------------------------- */
+#slagroomKeuze{
+    display: none;
+}
+#slagroomKies{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.slagroom{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slagroom img{
+    height: 15em;
+    padding: 0.5em;
+}
+
+.slagroom button{
+   margin-top: 0.5em;
+   font-size: 18px;
+   border-radius: 0.5em;
+   width: 10em;
+}
+
+/* ----------------------------------- pagina slagroom ----------------------------------- */
+#sprinkelsKeuze{
+    display: none;
+}
+
+#sprinkelsKies{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.sprinkels{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sprinkels img{
+    height: 15em;
+    padding: 0.5em;
+}
+
+.sprinkels button{
+   margin-top: 0.5em;
+   font-size: 18px;
+   border-radius: 0.5em;
+   width: 10em;
+}
+
+/* ----------------------------------- pagina slagroom ----------------------------------- */
+#eindKeuze{
+    display: none;
+}
+
+#eindKies{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 15em;
+}
+
+#eindButton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+#eindButton button{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em;
+    margin-right: 2em;
+    margin-top: -6em;
+    padding: 1em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    width: 10em;
+}
+
+#muffinGif{
+    display: none;
+    display: flex;
+    position: absolute;
+    margin-left: 25em;
+    width: 40em;
+    opacity: 50%;
+}
